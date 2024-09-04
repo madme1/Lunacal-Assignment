@@ -1,0 +1,13 @@
+.text{
+    margin-top: 15px;
+    color: #a4a5a7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+  
+}
+.text::-webkit-scrollbar {
+    display: none;
+  }

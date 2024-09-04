@@ -1,0 +1,22 @@
+.rightbox{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+
+    gap: 15px;
+   
+ 
+   
+}
+.rightbox hr{
+    width: 70%;
+    height: 4px;
+background-color: #333333;
+outline: none;
+border: none;
+box-shadow: 5px 5px 15px black;
+
+}

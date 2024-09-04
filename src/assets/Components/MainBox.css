@@ -1,0 +1,22 @@
+.mainbox{
+    display: flex;
+    height: 40vw;
+    align-self: center;
+  width: 90vw;
+    justify-self: center;
+ 
+    background-color: #262B30;
+ 
+    
+    box-shadow: 5px 5px 18px rgb(39, 39, 39);
+    flex-direction: row;
+    gap: 20px;
+    
+    padding: 30px;
+  
+   padding-top:5vh ;
+   padding-bottom: 5vh;
+
+
+
+}

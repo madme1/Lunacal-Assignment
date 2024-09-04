@@ -1,0 +1,12 @@
+.leftbox{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border:0.1px solid rgba(135, 207, 235, 0.411) ;
+   
+    border-radius: 20px;
+    background-color: #565758;
+
+}

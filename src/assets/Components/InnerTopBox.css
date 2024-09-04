@@ -1,0 +1,29 @@
+.innertop{
+    background-color:#363C43 ;
+    flex: 1;
+   display: flex;
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    flex-direction: row;
+    width: 100%;
+   height: 48%;
+   min-height: 48%;
+
+ 
+  
+}
+.innertop hr{
+    margin: 15px;
+    height: 20%;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 20px;
+
+    width:7px;
+    background-color:#696B6E;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow:5px 5px 15px black;
+}

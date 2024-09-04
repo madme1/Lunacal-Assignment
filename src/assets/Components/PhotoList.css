@@ -1,0 +1,32 @@
+.photolist{
+    display: flex;
+ flex-direction: row;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    overflow:scroll;
+    margin-top: 2vw;
+
+
+
+}
+.photolist::-webkit-scrollbar {
+    display: none;
+  }
+.photolist img{
+    border-radius: 10px;
+    height: 9vw;
+    width: 9vw ;
+    filter:grayscale(100%);
+    margin: 5px;
+}
+.photolist img:hover{
+
+    filter:grayscale(0%);
+    transform: rotate(-4deg) translatex(5px);
+    transition: 0.3s;
+    scale:1.1;
+
+
+}
+

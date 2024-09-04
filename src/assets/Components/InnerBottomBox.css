@@ -1,0 +1,14 @@
+.innerbottom{
+    background-color:#363C43 ;
+    flex: 1;
+   display: flex;
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    flex-direction: row;
+ 
+    height: 50%;
+   width: 100%;
+  
+ 
+}

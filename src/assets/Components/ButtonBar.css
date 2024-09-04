@@ -1,0 +1,89 @@
+.buttonbar{
+ 
+
+
+    width: 100%;
+   
+
+
+}
+.link-menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding: 0.6vw;
+    height: 20%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 1vw;
+    font-family: monospace;
+    border-radius: 10px;
+    display: block;
+ 
+    background: linear-gradient(to right, #49353536 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+    z-index: 1;
+    overflow: hidden;
+
+    
+
+  
+
+}
+.link-menu{
+    display: flex;
+    width: 100%;
+    background-color:#121212;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+a.active{
+    background-color: #28292F;
+    box-shadow: -5px  10px 30px rgb(0, 0, 0);
+    transition: all 1s ease-in-out;
+
+
+}
+
+.link-menu a:hover{
+
+    background-position: left bottom;
+ 
+  
+   
+
+}
+.link-menu span{
+    position:absolute;
+    height: 70%;
+    background-color: #28292F;
+
+    width: 28%;
+    border-radius: 20px;
+
+    overflow: hidden;
+    display: inline-block;
+    margin-top:0.5vw ;
+    transition: all 0.5s ease-in-out;
+    box-shadow: -5px  10px 30px rgb(0, 0, 0);
+
+
+}
+.mid{
+left: 36%;
+
+}
+.start{
+left:2%;
+}
+.end{
+left: 70%;
+}
