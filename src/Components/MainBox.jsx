@@ -1,5 +1,5 @@
 import React from 'react'
-import './Mainbox.css'
+// import './Mainbox.css'
 import { LeftBox } from './LeftBox'
 import { RightBox } from './RightBox'
 export const MainBox = () => {
