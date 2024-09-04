@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import { MainBox } from './assets/Components/MainBox'
+import { MainBox } from './Components/MainBox'
 
 function App() {
   const [count, setCount] = useState(0)
